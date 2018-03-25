@@ -13,7 +13,8 @@ public class HelloWorldController extends AbstractController {
 			HttpServletResponse response) throws Exception {
 
 		ModelAndView model = new ModelAndView("HelloWorldPage");
-		model.addObject("msg", "wassup world!! \n this is test page");
+		model.addObject("msg", "wassup world!!");
+		model.addObject("msg", "this is test page");
 
 		return model;
 	}
