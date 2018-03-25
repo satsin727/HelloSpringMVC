@@ -4,6 +4,7 @@
 	<h1>Spring MVC App</h1>
 
 	<h2>${msg}</h2>
+	<h2>${msg1}</h2>
 
 </body>
 </html>

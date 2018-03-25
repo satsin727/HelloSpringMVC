@@ -14,7 +14,7 @@ public class HelloWorldController extends AbstractController {
 
 		ModelAndView model = new ModelAndView("HelloWorldPage");
 		model.addObject("msg", "wassup world!!");
-		model.addObject("msg", "this is test page");
+		model.addObject("msg1", "this is test page");
 
 		return model;
 	}
