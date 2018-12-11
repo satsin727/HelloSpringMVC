@@ -14,7 +14,18 @@
 		<servletapi.version>2.5</servletapi.version>
 		
 	</properties>
-	
+	<profiles>
+    <profile>
+        <id>tomcat-localhost</id>
+        <activation>
+            <activeByDefault>true</activeByDefault>
+        </activation>
+        <properties>
+            <tomcat-server>localhost</tomcat-server>
+            <tomcat-url>http://localhost:9999/manager</tomcat-url>
+        </properties>
+    </profile>
+</profiles>
 	<dependencies>
 
 		<!-- Spring MVC framework -->
